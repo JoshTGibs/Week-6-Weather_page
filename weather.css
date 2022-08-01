@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+#top{
+    background-color: skyblue;
+    color: white;
+}
+
+#nav, #container{
+    width: 900px;
+    margin: 0 auto;
+}
+
+#nav{
+    display: flex;
+    height: 70px;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+#navtitle{
+    font-size: 2.3rem;
+}
+
+#nav ul{
+    list-style-type: none;
+    justify-content: space-between;
+    display: flex;
+    width: 400px;
+}
+
+.city{
+    color: white;
+    font-size: 1.3rem;
+}
+
+#nav a{
+    text-decoration: none;
+}
+
+#title{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 2px solid black;
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+}
+
+#title h2{
+    font-size: 2.1rem;
+}
+
+#measurement{
+    margin-left: 15px;
+    width: 50px;
+    height: 25px;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+#row{
+    display: flex;
+}
+
+.days{
+    flex: 1;
+    text-align: center;
+    background-color: lightgray;
+    padding: 20px 0px;
+    margin-right: 20px;
+}
+
+.days p{
+    font-weight: 700;
+}
+
+.days:last-child{
+    margin-right: 0px;
+}
+
+.picture{
+    border-radius: 200px;
+    width: 150px;
+    margin: 30px 0px;
+}
+
+.temps{
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.red, .blue{
+    font-weight: 700;
+    font-size: 1.2rem;
+    margin: 5px;
+}
+
+.red::after, .blue::after {
+    content: "°";
+}
+
+.red{
+    color: red;
+}
+
+.blue{
+    color: blue;
+}
+
+#bottom{
+    width: 100%;
+    position: absolute;
+    bottom: 10px;
+}
+
+#policy{
+    box-sizing: border-box;
+    width: 900px;
+    height: 110px;
+    padding: 15px;
+    border: 2px solid black;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: lightgrey;
+}
+
+#accept{
+    background-color: skyblue;
+    padding: 10px 20px;
+    border: 2px solid black;
+    box-shadow: 4px 4px 4px;
+    font-weight: 600;
+}
+
+#message{
+    width: 700px;
+}
+
+#message h4{
+    font-size: 1.7rem;
+}
+
+#message p{
+    font-weight: 600;
+}
+
+#right{
+    font-size: 1.2rem;
+    font-weight: 600;
+}
